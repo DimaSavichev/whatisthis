@@ -1,0 +1,7 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to top left, darkred, midnightblue);
+}
+.vertical {
+    margin-top: 20vh;
+}

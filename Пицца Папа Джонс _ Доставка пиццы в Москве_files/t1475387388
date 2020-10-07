@@ -1,0 +1,38 @@
+
+
+(function()
+{'use strict';try{var b='as_tracking',l=function(r){try{var s=document.createElement('IMG');
+s.src=r}catch(t){console.log('as-tracking: getPixel()'),console.log(t)}},m=new URL(document.location),n=function j(r){var s=new RegExp('(?:(?:^|.*;\\s*){NAME}\\s*\\=\\s*([^;]*).*$)|^.*$'.replace('{NAME}',r));
+return document.cookie.replace(s,'$1')}(b);if(''===n){var o=m.searchParams;if(n=o.get('as-tracking'),null===n)
+return}var p='http://rtb.com.ru/event?type=visitdeep&tracking={TRACKING_ID}'.replace('{TRACKING_ID}',n);l(p),function k(r,s){var t=2<arguments.length&&arguments[2]!==void 0?arguments[2]:void 0,u='{NAME}={VALUE};max-age={MAX_AGE}';u=u.replace('{NAME}',r),u=u.replace('{VALUE}',s),t!==void 0&&(u=u.replace('{MAX_AGE}',t)),document.cookie=u}(b,n,18000);
+var q='http://rtb.com.ru/event?type=visittime&tracking={TRACKING_ID}'.replace('{TRACKING_ID}',n);setInterval(function(){return l(q)},5e3)}catch(r){console.log('as-tracking'),console.log(r)}})();
+
+
+
+
+
+
+
+(function () {
+    if(true){
+    var d_i = document.createElement("img");
+    d_i.style.cssText="width:1px !important; height:1px !important; display:none !important;";
+    d_i.setAttribute("alt","");
+    d_i.setAttribute("src","//counter.yadro.ru/id127/refocus-id.gif");
+    var s = document.body;
+    s.appendChild(d_i);}
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
